@@ -1,0 +1,326 @@
+.countiner{
+    position: relative;
+   padding-top: 88px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+   
+   
+}
+.card{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+.Easyscheduling, .animation{
+    height: 700px;
+    width: 70%;
+}
+.cloum>h1{
+    width: 40px;
+    font-size: 4.20875rem;
+    line-height: 1.2;
+    font-weight: 900;
+    white-space: pre-line;
+    text-align: left;
+    color: rgb(11, 53, 88);
+    margin-bottom: 32px;
+    margin-left: 40px;
+}
+.cloum>h1>span{
+    display: block;
+    color: #006bff;
+}
+.cloum>p:nth-child(2){
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    width: 60%;
+    font-weight: 300;
+}
+.Sign{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 67%;
+    margin-left: 40px;
+    height: 66px;
+}
+.Sign>input,button{
+   display: block;
+}
+.Sign>input{
+    width: 76%;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    opacity: 60%;
+   padding-left: 20px;
+}
+.Sign>button{
+    margin-left: 81%;
+    width: 100px;
+    margin-top: -62px;
+    height: 65px;
+    background-color: #006bff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.cloum>p:nth-child(4){
+    font-size: 17px;
+    text-align: left;
+    margin-left: 70px;
+    font-weight: 300;
+}
+.animation>img{
+    margin-top: 20%;
+    width: 90%;
+}
+
+
+/* Slide all company */
+
+.slide{
+    background-color: #F8F8F8;
+    height: 450px;
+    
+}
+.slide>img:nth-child(3){
+    width: 80px;
+}
+.slide>img{
+    margin-left: 80px;
+}
+.slide>h2{
+    font-size: 35px;
+    width: 40%;
+    margin: auto;
+    padding-top: 70px;
+    margin-bottom: 100px;
+}
+.slide>h2>span{
+    color: #006bff;
+}
+
+
+
+/* grid start here */
+
+
+.We-make-it-easy{
+    height: 450px;
+    background-color: white;
+}
+
+.We-make-it-easy>h3{
+    font-size: 2.36875rem;
+    line-height: 1.4;
+    text-align: center;
+    color: rgb(11, 53, 88);
+    font-weight: 700;
+    margin-bottom: 48px;
+    z-index: 10;
+}
+.We-make-it-easy-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 250px;
+    width: 60%;
+   margin: auto;
+   gap: 20px;
+}
+.We-make-it-easy-grid>div{
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 10px;
+}
+.We-make-it-easy-grid>div>img{
+    display: block;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    max-width: none;
+    height: 30px;
+}
+.We-make-it-easy-grid>div>h4{
+    text-align: left;
+    color: rgb(11, 53, 88);
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-left: 30px;
+}
+.We-make-it-easy-grid>div>p{
+    line-height: 1.71429;
+    font-size: 18px;
+    width: 80%;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+/* secound grid here  */
+
+.Scheduling-for-any-meeting{
+    height: 650px;
+    background-color: #F8F8F8;
+}
+
+.Scheduling-for-any-meeting>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 250px;
+    width: 60%;
+   margin: auto;
+   gap: 20px;
+}
+.Scheduling-for-any-meeting>div>div:hover{
+    background-color: white;
+}
+.Scheduling-for-any-meeting>h1{
+    font-size: 50px;
+    padding-top: 30px;
+}
+.Scheduling-for-any-meeting>div>div>p{
+    width: 89%;
+}
+.Scheduling-for-any-meeting>div>div>p>span{
+    font-weight: 700;
+}
+
+
+/*  Third grid here */
+
+.The-right-Calendly-for{
+
+    height: 650px;
+    background-color: white;
+}
+.The-right-Calendly-for>div{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 250px;
+    width: 60%;
+   margin: auto;
+   gap: 20px;
+}
+.The-right-Calendly-for>p{
+    color: #006bff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+.The-right-Calendly-for>h3{
+    font-size: 2.36875rem;
+    line-height: 1.4;
+    text-align: center;
+    color: rgb(11, 53, 88);
+    font-weight: 700;
+    margin-bottom: 48px;
+    z-index: 10;
+}
+.The-right-Calendly-for>div>div>button{
+    border: none;
+    background-color: white;
+    color: #006bff;
+    font-size: 18px;
+    margin-left: 25px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.The-right-Calendly-for>div>div:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+
+.Do-more-of-what{
+     height: auto;
+     margin-top: 130px;
+}
+.Do-more-of-what>h1,.Try-Calendly-free>h2{
+    font-size: 50px;
+    line-height: 1.4;
+    text-align: center;
+    color: rgb(11, 53, 88);
+    font-weight: 700;
+    margin-bottom: 48px;
+    z-index: 10;
+}
+
+
+.slack-follow{
+    width: 70%;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+.WORKFLOW-MANAGEMENT, .Slack-animation,.ON-DEMAND-SCHEDULING,.Selet-time-data,.THE-COURTEOUS-APPROACH,.Mobile{
+    height: 500px;
+    width: 70%;
+}
+.WORKFLOW-MANAGEMENT>h6, .ON-DEMAND-SCHEDULING>h6,.THE-COURTEOUS-APPROACH>h6{
+    font-size: 16px;
+    color: #006bff;
+    line-height: 1.2;
+    font-weight: 900;
+    white-space: pre-line;
+    text-align: left;
+    margin-bottom: 32px;
+    margin-left: 40px;
+    margin-top: 20%;
+}
+.WORKFLOW-MANAGEMENT>h2, .ON-DEMAND-SCHEDULING>h2,.THE-COURTEOUS-APPROACH>h2{
+  font-size: 26px;
+  text-align: left;
+  margin-left: 40px;
+  color: rgb(11, 53, 88);
+}
+.WORKFLOW-MANAGEMENT>p, .ON-DEMAND-SCHEDULING>p,.THE-COURTEOUS-APPROACH>p{
+    font-size: 19px;
+    width: 74%;
+    text-align: left;
+   margin-left: 40px;
+}
+.Slack-animation>img,.Selet-time-data>img,.Mobile>img{
+    
+    margin-top: 40px;
+}
+.Mobile>img{
+    width: 100%;
+}
+
+.Try-Calendly-free{
+    height: 450px;
+    background-color: #f7faff;
+}
+
+.Try-Calendly-free>h2{
+    padding-top: 40px;
+}
+.Try-Calendly-free>p{
+    font-size: 20px;
+    width: 700px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.Try-Calendly-free>button{
+    height: 60px;
+    font-size: 20px;
+    width: 9%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: #006bff;
+    color: white;
+    margin-bottom: 10px;
+}
+.Try-Calendly-free>button:hover{
+    background-color: #237efc;
+}
+
+

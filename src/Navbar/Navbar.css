@@ -1,0 +1,45 @@
+.navbar{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    box-shadow: rgb(0 0 0 / 4%) 0px 4px 4px;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+.logo>a>img{
+    margin-top: 20px;
+    margin-left: -50px;
+    width: 70%;
+}
+.indi>ul,.log>ul{
+    display: flex;
+    gap: 70px;
+    list-style-type: none;
+}
+.indi>ul>li>a,.log>ul>li>a{
+    color: black;
+}
+.log>ul>button>a{
+    color: white;
+}
+.log>ul>button{
+    background-color: #006BFF;
+    border: none;
+    color: white;
+    display: inline-block;
+   padding-left: 30px;
+   padding-right: 30px;
+   border-radius: 10px;
+   height: 45px;
+   margin-top: 5px;
+}
